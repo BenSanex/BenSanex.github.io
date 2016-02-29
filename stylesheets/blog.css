@@ -1,0 +1,29 @@
+body {
+  background-color: #3193e8;
+  background-image:none;
+  color:#43FFF8;
+}
+main p {
+  font-size: 16px;
+}
+h1 {
+  color:#4EFF32;
+}
+main {
+  margin: auto;
+}
+
+main section {
+  max-width: 75%;
+  text-align:center;
+  margin: auto;
+}
+#fixed {
+  position: fixed;
+  bottom:25%;
+  right:15px;
+  border:2px solid black;
+  font-size:16px;
+  background-color:#31E87F;
+  color:#363DFF;
+}
