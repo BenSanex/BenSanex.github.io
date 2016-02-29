@@ -1,0 +1,65 @@
+html {
+  font-family:"raleway", Sans-serif;
+  color:#ffffff;
+}
+h1 {
+  font-size: 3em;
+}
+body {
+  background-image:url("../imgs/halfdome.jpg");
+  background-size:cover;
+}
+nav {
+  background-color:rgba(0,0,0,1);
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:10px;
+  width:50%;
+  margin: auto;
+  opacity:.5;
+}
+
+nav li {
+  display: inline-block;
+  float:center;
+  padding: 5px;
+  text-align:center;
+}
+
+
+nav a {
+  text-decoration:none;
+  color:#fff;
+  font-size:2em;
+  position:relative;
+  text-align:center;
+}
+.nav a:hover {
+  border-bottom: 3px groove white;
+}
+main {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 4em;
+  text-align: center;
+}
+main p {
+  font-size: .5em;
+}
+footer {
+  margin: 0 auto 0 auto;
+  max-width: 85%;
+  position:relative:;
+}
+
+footer section {
+  display: inline-block;
+  max-width: 25%;
+  text-align: center;
+  margin:0px 3% 0px 3%;
+}
+
+img {
+  width: 100%;
+  
+}
