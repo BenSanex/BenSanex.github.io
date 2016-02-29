@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ben's Website</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <h1>Ben Sanecki</h1>
+    </header>
+    <nav>
+      <ul class="nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="blog/blog-index.html">Blog</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  <main>
+    <section>
+      <h2>Post Title</h2>
+      <p>The topic I did additional research on was positioning, and the differences between the different position properites.</p>
+      <p>Positioning in CSS is easily the most frustrating concept to me while creating websites.  Every project I work on, I spend the vast majority of the time trying
+      to figure out how to make the elements of a page line up in a way that looks good or how I envisioned.  The position property is one that doesn't have a lot of good explanations
+      so I will do my best to explain it here.</p>
+      <p>There are four possible position values an HTML element can have.  These are: static, relative, fixed and absolute.  By default, an HTML element, unless specified will have the
+      property of static.  Static elements have no special positioning are laid out with the normal HTML document flow.  All elements take up the full width of the page unless otherwise specified,
+      and each element will then drop down to the next line.  If elements have an inline, or inline block display value, static elements will line up next to eachother.</p>
+      <p>The next possible value is relative.  Relative is simliar to static positioning in that it the element will be placed in order of the regular HTML document flow.  The addition of the
+      relative position gives you the ability to shift the element from its normal static spot.  This is done by the addition of the top, bottom, left, and right attributes. By giving an element
+      a relative position and then a top value of 50px, it will go 50 pixels down from where it would have been if it was a static element. In addition, this won't shift any other elements to take
+      the empty space where the relative object would have been.</p>
+      <p>Fixed positioning is a little more interesting.  Instead of being positioned based on the other elements in the page, the element is placed relative to a position on the 
+      screen.  A fixed element will stay where it is, even if the user scrolls the page.  It also does not leave a gap where it would have been like a relative element does. It is simliar
+      to a relative element in that using the top, bottom, left and right properties, you specify where on the screen you want the object to appear.</p>
+      <p>Absolute positioning gives you the ability to place elements on top of, or around eachother.  The object with the position of absolute will position itself based on another element it is
+      a part of, also with the top, bottom, left and right properties.  If the parent element is fixed, it will also stay fixed as the page scrolls.  Absolute elements cannot be positioned relative to static
+      elements, and if they have no parents that are positioned (not static), they will position relative to the whole page.</p>
+      <p>To summarize, static is normal HTML, relative is static but shifted, fixed is fixed to your screen, and absolute is positioned based on other things.</p>
+    </section>
+    </main>
+  </body>
+</html>
