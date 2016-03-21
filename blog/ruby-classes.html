@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ben's Website</title>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    
+  </head>
+  <body>
+    <header>
+      <h1>Ben Sanecki</h1>
+    </header>
+    <nav>
+      <ul class="nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="blog-index.html">Blog</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  <main>
+    <section>
+      <h2>Ruby Classes</h2>
+      <p>Ruby is a very powerful and flexible programming language.  Classes give you the ability to create your own types of objects that can be used in a program or in different programs.  Classes work something like this:</p>
+      <code>class Person(name,age)
+        def Initialize
+          @age = age
+          @name = name
+        end
+        </code>
+        <p>This code snippet creates a new class called person. When each new instance of the class, or each new person, is created, it requires them to be created with a name and an age. The Initialize method is the method that is called whenever a new object in the class Person is created, in this case it takes the name and age arguments and sets them as variables to be used throughout the methods this person uses.
+        </p>
+        <code>
+        def Introduce
+          puts "Hi my name is #{@name}"
+        end
+        </code>
+        <p>Here we define a method called Introduce. It requires no arguments, and when it is called, it uses the name variable which was defined when we created out person. Class methods are methods that can be called on an object and uses the different attributes or instance variables to perform actions.</p>
+        <p>Using these simple principles and all of the Ruby methods that are available, you can make classes that can be reused to any number of different things for you program.</p>
+    </section>
+    </main>
+  </body>
+</html>
