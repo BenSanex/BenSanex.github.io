@@ -2,16 +2,13 @@ html {
   font-family:"raleway", Sans-serif;
   color:#ffffff;
 }
-
 h1 {
   font-size: 3em;
 }
-
 body {
   background-image:url("../imgs/halfdome.jpg");
   background-size:cover;
 }
-
 nav {
   background-color:rgba(0,0,0,1);
   padding-top:5px;
@@ -21,33 +18,30 @@ nav {
   margin: auto;
   opacity:.5;
 }
-
 nav li {
   display: inline-block;
   float:center;
   padding: 5px;
   text-align:center;
 }
-
 nav a {
   text-decoration:none;
   color:#fff;
   font-size:2em;
   position:relative;
   text-align:center;
+  border-bottom: 3px groove #000;
+  font-weight:normal;
 }
-
 .nav a:hover {
   border-bottom: 3px groove white;
 }
-
 main {
-  margin-top: 3em;
-  margin-bottom: 3em;
-  font-size: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 3em;
   text-align: center;
 }
-
 main p {
   font-size: .5em;
 }
@@ -56,14 +50,12 @@ footer {
   max-width: 85%;
   position:relative:;
 }
-
 footer section {
   display: inline-block;
   max-width: 25%;
   text-align: center;
   margin:0px 3% 0px 3%;
 }
-
 table {
   font-size:25px;
 }
@@ -72,4 +64,25 @@ td {
 }
 img {
   width: 100%;
+  display:inline-block;
+}
+a {
+  text-decoration: none;
+  font-weight:bold;
+  text-align: left;
+  color:#ffffff;
+  display:inline-block;
+  border-bottom: 3px solid rgba(0,0,0,0);
+}
+a:hover
+  {
+    
+    border-bottom: 3px solid #ffffff;
+  }
+
+h4 {
+  font-size:.5em;
+}
+.project {
+  width: 50%;
 }
