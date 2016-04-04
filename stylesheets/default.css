@@ -86,3 +86,23 @@ h4 {
 .project {
   width: 50%;
 }
+.cheatsheet {
+  background-image:url('../imgs/notebook.jpg');
+  background-size:cover;
+  color:#000000;
+  margin-left: 50px;
+}
+.cheatsheet main {
+  font-size: 20px;
+}
+
+.left {
+  display:inline-block;
+  float:left;
+}
+.center {
+  display:inline-block;
+}
+.right {
+  float: right;
+}
