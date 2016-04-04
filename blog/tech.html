@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ben's Website</title>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    
+  </head>
+  <body>
+    <header>
+      <h1>Ben Sanecki</h1>
+    </header>
+    <nav>
+      <ul class="nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="blog-index.html">Blog</a></li>
+        <li><a href="../projects.html">Projects.</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  <main>
+    <section>
+      <h2>SQL Injections</h2>
+      <p>Relational databases are one of the most common forms of data storage on the internet.  SQL is a programming language used to access and manipulate the data in these databases.  It is a very powerful language, but like anything else it has security weaknesses.</p>
+      <p>SQL Injections are considered one of the top 10 web app vulernabilities and it is estimated that the average web app receives an average of 4 attacks per month.  They are performed by attempting to fill in a form with code instead of its intended input.  Instead of putting in an email address, something to fulfill the form is put in, as well as additional SQL code "escaped" from the form.  For example, if an email address is put in, and the code is going to read it as <code>'email@address.com'</code>, one would but in their own apostraphe, and then after that put an OR statement or AND statement with their own code.</p>
+      <p>After some exploration, you can use the code to call or modify contents of the database.  Hackers could use this ability to steal the contents of the database, perhaps containg user info to sell or utilize for other malicious purposes.  They could also input their own data into the database, perhaps changing a password of a user with high level access and gain further access to a company's servers.</p>
+      
+    </section>
+    </main>
+  </body>
+</html>
