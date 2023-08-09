@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pesto and ChatGPT"
-date:   2023-08-02 19:57:57 -0500
+date:   2023-08-03 19:57:57 -0500
 categories: blog post
 ---
 I think there has probably been plenty written about the AI revolution and ChatGPT but today was a particularly fun day. 
