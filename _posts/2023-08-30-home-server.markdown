@@ -4,10 +4,6 @@ title:  "Home Server - OS Install and Internet Connection"
 date:   2023-08-30 19:57:57 -0500
 categories: blog post
 ---
-Here's a cleaned-up version of your blog post:
-
----
-
 **Building My Own Home Server: The Journey Begins**
 
 For quite some time, I've harbored the ambition to construct my very own home server. The idea of shelling out for Google Drive and iCloud, especially when I have terabytes of hard drives and idle computers gathering dust in my office, feels almost sacrilegious. Why let Google train their AIs on my cherished photos when I can spend my boundless free hours not just "banging my head against the wall," but genuinely relishing the learning curve of Linux, Docker, networking, and more?
