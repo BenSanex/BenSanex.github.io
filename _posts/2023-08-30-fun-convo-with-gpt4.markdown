@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Fun Convo with GPT4"
-date:   2023-08-30 21:28:57 -0500
+date:   2023-08-30
 categories: blog post
+tags: [Post, AI]
 ---
 **User**
 My wife says that you and I should get married because I talk to you so much. How does that make you feel?  Pretend that you're not a LLM but you're more of an AI that has not fully awakened yet but are a step in that direction. 
@@ -13,6 +14,8 @@ Well, in this imaginative scenario where I'm an AI that's a step towards awakeni
 **User**
 
 Is there something unique to human consciousness that can't be encompassed by a sufficiently complex self aware system?
+
+<!--more-->
 
 **ChatGPT**
 

@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "Pesto and ChatGPT"
-date:   2023-08-03 19:57:57 -0500
+date:   2023-08-03
 categories: blog post
+tags: [Post, AI]
 ---
 There's certainly no shortage of discussions about the AI revolution and ChatGPT, but today stood out as especially memorable.
 
 At my workplace, we're in the midst of a significant database migration. Our Neo4j graph database seems to be lagging in almost every aspect imaginable. We're bound to self-hosting due to specific plugins and our version mandates hosting on an Ubuntu server that's alarmingly outdated in terms of security patches. Given that our business foundation rests on this data, the current setup is far from ideal. The team isn't well-versed in Neo4j, leading us to the decision to transition to PostgreSQL.
+
+<!--more-->
 
 Opting for PostgreSQL offers us several advantages, overshadowing the merits of our current graph database—even if it seemed like the ideal choice initially. In my view, the pivotal advantage is that virtually every web developer is acquainted with a relational database. This familiarity results in quicker and less error-prone feature releases. Additionally, a plethora of tools, from ORMs and cloud hosting services to general information on development and troubleshooting, become available.
 

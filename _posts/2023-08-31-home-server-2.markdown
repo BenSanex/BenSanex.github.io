@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Home Server - ZFS Setup"
-date:   2023-08-31 22:00:00 -0500
+date:   2023-08-31
 categories: blog post
+tags: [Post, Homelab]
 ---
 So I was wrong about a good chunk of what I wrote yesterday.
 
@@ -10,6 +11,8 @@ I did successfully install ubuntu server, what I didn't realize was that I was n
 Why that one didn't like secure boot but the older install of ubuntu server did is a mystery. That's what happens when you just click your way through the install process.
 
 Once I was using the correct OS I had to remove all of the LVM setup and partitions in order to setup my zfs pools.
+
+<!--more-->
 
 ##LVM Discovery and Removal
 ```bash

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Home Server - OS Install and Internet Connection"
-date:   2023-08-30 19:57:57 -0500
+date:   2023-08-30
 categories: blog post
+tags: [Post, Homelab]
 ---
 **Building My Own Home Server: The Journey Begins**
 
@@ -16,6 +17,8 @@ At the heart of this endeavor is my desire for a robust photo storage solution. 
 - 1 stored offsite
 
 Having two local copies safeguards against unexpected data corruption, while the offsite backup is a shield against calamities like fires.
+
+<!--more-->
 
 **Exploring Solutions**
 

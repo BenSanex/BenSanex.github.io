@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "New blog"
-date:   2023-08-02 19:57:57 -0500
+date:   2023-08-02
 categories: blog post
+tags: [Post]
 ---
 I found it highly inappropriate that as a professional web devleoper my personal site was garbage. Granted it was written 7 years ago when I was just learning what I was doing. Now since I do this professionally I do'nt wnt to have to deal with the same frustrations I do all day and end up figuring out some other cloud provider so I discovered that github pages works with this jekyll thing and I'm rolling with that for now. Its cheap and seems pretty easy so far although my first attempt at this post got steamrolled into another *Welcome to Jekyll!* post. I'm leaving that one there just for my own reference because this site is for me anyway I do what I want.
 

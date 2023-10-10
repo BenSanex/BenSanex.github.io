@@ -1,14 +1,18 @@
 ---
 layout: post
 title:  "Hello from Mexico"
-date:   2023-09-24 13:36:00 -0500
+date:   2023-09-24
 categories: update post travel
+tags: [Post, Travel]
+featured_image: national_cathedral.jpg
 ---
 Last Sunday through Wednesday nights I was in Mexico City. The primary purpose of my visit was to obtain my Visa from the Venezuelan Embassy. I rented an Airbnb in Polanco, located close to the Embassy. Polanco is also an area that I am familiar with from my first visit to Mexico City. Since I would be traveling solo, some of this familiarity helped to reduce a bit of anxiety with the trip.
 
 I arrived Sunday night at Mexico City Airport. I flew AeroMexico.  Most of the instructions were in Spanish and the flight crew would default to Spanish but were comfortable helping me in English when I struggled. Since I was traveling solo and "looked tall" they were nice enough to move me up into an exit row. I was in the window seat and distracted by airport workers when they came through with headphones so I didn't get to use the in flight entertainment. Apparently when you are in the exit row you also can't keep a bag under your seat so I had to put both of my backpacks in the overhead compartment. Luckily I grabbed [Light Bringer](https://www.goodreads.com/book/show/29227774-light-bringer) to keep in the back of the seat and it was thrilling enough to last most of the 3.5 hour flight minus the brief time when the meal cart came through. To eat we had a hot ham and cheese sandwich on a roll with a small salad and a brownie. It wasn't great but all I had since lunch was some Dots pretzels so I ate it all.
 
 Once we landed there was a short line in customs where I met a Spaniard from Southern California who wondered why I would bring an umbrella to Mexico city (it was sticking out of the side pocket in my backpack). I told him it was supposed to rain the whole week and he expressed regret for not checking the weather. Luckily for me the weather looked to be about the same as Chicago at the time, mid 70s, partly cloudy and maybe some rain showers.
+
+<!--more-->
 
 I left the airport and found an authorized taxi to take me to the Airbnb. I am trustworthy enough to get in a van with a guy who flashed me a badge, but not enough for me to take my eyes off the Google Maps directions in my sweaty hands. Luckily he followed one of the two routes to get to Polanco and somehow magically dodged enough traffic to cut the travel time down by 15 minutes. He got a nice tip for that. Check in to the Airbnb was easy; I showed my ID to the door man and he snapped a picture for someone. I saw my name written on a little notebook so I guess they're very familiar with the process. 
 
