@@ -1,0 +1,36 @@
+---
+layout: default
+title: Bookmarks
+permalink: /links/
+---
+
+<main class="content fade-in-down delay-0_75s">
+    <div class="inner">
+        <article class="post">
+            {% if page.featured_image %}
+            <div class="post-thumbnail">
+                <img src="{{ "/images/" | append: page.featured_image | prepend: site.baseurl }}" alt="{% if page.featured_image_alt %}{{ page.featured_image_alt }}{% else %}{{ page.title }}{% endif %}">
+            </div><!-- .post-thumbnail -->
+            {% endif %}
+            <div class="entry-box">
+                <header class="entry-header">
+                    <h1 class="entry-title">{{page.title}}</h1>
+                    <h3 class="entry-meta">These are just some links to things I find interesting</h3>
+                </header><!-- .entry-header -->
+                <div class="entry-content">
+                    <div class="archive-tags-list">
+                        <a href="#">Hobbies</a>
+                        <a href="#">Blogs</a>
+                        <a href="#">Videos</a>
+                        <a href="#">Tech</a>
+                    </div><!-- .archive-tags-list -->
+                    <h2 id="">Hobbies</h2>
+                    <ul class="archive-posts-list">
+                        <li><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a> <span class="archive-meta"> — <time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span></li>
+                    </ul>
+                    <p><a href="#page" class="archive-top-link">Return to top <i class="fa fa-angle-up" aria-hidden="true"></i></a></p>
+                </div><!-- .entry-content -->
+            </div><!-- .entry-box -->
+        </article><!-- .post -->
+    </div><!-- .inner -->
+</main><!-- .content -->

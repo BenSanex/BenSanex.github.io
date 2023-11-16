@@ -27,6 +27,8 @@ navigation:
   url: /
 - text: About
   url: /about/
+- text: Favorites
+  url: /links/
 - text: Archives
   url: /tags/
 
@@ -44,7 +46,7 @@ baseurl:  # the subpath of your site, e.g. /blog
 banner_image: banner.jpg
 banner_url: https://justgoodthemes.com/
 
-url: "https://bensanex.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.sanecki.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: bensanex
 author: Ben Sanecki

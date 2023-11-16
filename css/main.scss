@@ -187,7 +187,7 @@
 
 .close-icon {
     background: 0;
-    color: #fff;
+    color: #f2f2f2;
     display: block;
     height: 2px;
     left: 50%;
@@ -298,7 +298,7 @@ ul.search-results {
     margin: 0;
     a {
         background-color: $accent-color;
-        color: #fff;
+        color: #f2f2f2;
         display: inline-block;
         padding: 15px 30px;
         text-decoration: none;
@@ -320,7 +320,7 @@ ul.search-results {
  */
 
 .post {
-    background: #fff;
+    background: #f2f2f2;
     margin-bottom: 60px;
 }
 
@@ -337,7 +337,7 @@ ul.search-results {
     font-size: 38px;
     margin: 0 0 12px;
     a {
-        color: #30373d;
+        color: #272d32;
         text-decoration: none;
         &:hover {
             color: $accent-color;
@@ -365,7 +365,7 @@ ul.search-results {
     margin-top: 24px;
     a {
         border-radius: 2px;
-        color: #fff;
+        color: #f2f2f2;
         display: inline-block;
         height: 28px;
         line-height: 2;
@@ -401,14 +401,14 @@ ul.search-results {
 .more-link {
     background-color: #aeb0b1;
     border-radius: 2px;
-    color: #fff;
+    color: #f2f2f2;
     display: inline-block;
     font: bold 14px/1.5 $alt-font;
     padding: 8px 30px;
     text-decoration: none;
     &:hover {
         background-color: $accent-color;
-        color: #fff;
+        color: #f2f2f2;
     }
 }
 
@@ -488,13 +488,13 @@ ul.search-results {
 
 .archive-top-link {
     background-color: #aeb0b1;
-    color: #fff;
+    color: #f2f2f2;
 }
 
 .archive-tags-list a:hover,
 .archive-top-link:hover {
     background-color: $accent-color;
-    color: #fff;
+    color: #f2f2f2;
 }
 
 .archive-posts-list {
@@ -513,7 +513,7 @@ ul.search-results {
 /* Comments */
 
 .comments-area {
-    background-color: #fff;
+    background-color: #d4d4d4;
     margin-bottom: 60px;
     padding: 0 30px 45px;
 }
@@ -554,7 +554,7 @@ ul.search-results {
 .pagination a:hover,
 .post-nav a:hover {
     background-color: $accent-color;
-    color: #fff;
+    color: #f2f2f2;
 }
 
 .nav-previous,
@@ -690,7 +690,7 @@ ul.search-results {
     text-decoration: none;
     &:hover {
         background-color: $accent-color;
-        color: #fff;
+        color: #f2f2f2;
     }
 }
 
@@ -743,7 +743,7 @@ ul.search-results {
 .top-link {
     background-color: #606669;
     border-radius: 2px;
-    color: #fff;
+    color: #f2f2f2;
     display: inline-block;
     font-size: 14px;
     height: 36px;
@@ -753,7 +753,7 @@ ul.search-results {
     width: 36px;
     &:hover {
         background-color: $accent-color;
-        color: #fff;
+        color: #f2f2f2;
     }
 }
 
