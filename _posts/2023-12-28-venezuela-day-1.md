@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Hello from Mexico"
+title:  "Hello Culture Shocks"
 date:   2023-12-27
 categories: update post travel
 tags: [Post, Travel, Venezuela]
-featured_image: national_cathedral.jpg
+featured_image: none
 ---
 
 Valencia International Airport sounds like a serious airport but in reality its a single runway and you disembark on stairs then walk to the terminal. They must not handle more than a handful of flights per day. We got some Tylenol while waiting at customs from one of the other parents and that seemed to help Mila's earache a bit.
@@ -29,6 +29,6 @@ They have 2 Fiat Unos, which is a small 4 door hatchback, and 1 Kia Rio which I 
 
 Instead of going out to get their hair cut or nails done Scarlett goes and picks up her stylists, who have been friends for 20+ years and they come to the house to perform the services. Since the Baptism was scheduled for the 29th they got hair treatments the night of the 28th. Scarlett's hair wasn't finished until after we went to bed around 11pm. Pedicures were performed the next day by another friend.
 
-We ate hallacas which are like a Venezuelan version of a tamale. Cornmeal stuffed with beef and other goodies and then wrapped in a banana leaf and cooked. We boil them to reheat for eating. I've eated then in the US a few times around the holidays and was never particularly impressed but these ones were excellent so I had two.
+We ate hallacas which are like a Venezuelan version of a tamale. Cornmeal stuffed with beef and other goodies and then wrapped in a banana leaf and cooked. We boil them to reheat for eating. I've eated then in the US a few times around the holidays and was never particularly impressed but these ones were excellent so I had two. The tap water is probably not drinkable so they use a combination of small bottles and a large jug, but apparently they will drink it from just an activated carbon Pur filter on the sink. We don't want to take the risk after the Mexico experience so we're sticking with the bottles.
 
 After this I'm going to change up the posts a bit, maybe slightly less chronological since I won't necessarily have new experiences and culture shocks to write about as frequently. I'll stick to new meals, new places visited, major events and see where that gets us.
