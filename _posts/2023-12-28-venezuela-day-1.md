@@ -9,9 +9,11 @@ featured_image: none
 
 Valencia International Airport sounds like a serious airport but in reality its a single runway and you disembark on stairs then walk to the terminal. They must not handle more than a handful of flights per day. We got some Tylenol while waiting at customs from one of the other parents and that seemed to help Mila's earache a bit.
 Customs was the part of the journey that I was dreading the most. I had gone through waves on nervousness and anxiety over the past few months regarding the trip. I worked my way through
+
     - Going to Mexico City by myself
     - Negotiating with Venezuelan Embassy to get the Visa
-    - Rational and irrational worries about being robbed, kidnapped and ransomed, arrested by the Venezuelan Government for who knows what, or losing my papers and not being allowed out of the country.
+    - Rational and irrational worries about being robbed, kidnapped and ransomed, arrested by the Venezuelan Government for who knows what
+    - Losing my papers and not being allowed out of the country.
 
 Some of these were partially alleviated by watching [Bald and Bankrupt's](https://www.youtube.com/channel/UCxDZs_ltFFvn0FDHT6kmoXA) journey with the _caminantes_ through the Darien Gap and across Mexico to reach the US border. I knew if things really really really went down I could at least make it to a US Embassy in Colombia and then get a flight back home. He also had a video of himself spending a day in Caracas and going to the worst neighborhood he could find, talking to people and just getting a feel for the country while speaking highly questionable spanish and in general not being discreet in the least. These really instilled confidence in my own ability to handle communicating and overall what the vibe of the country would be like when I arrived.
 
