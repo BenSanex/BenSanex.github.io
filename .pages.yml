@@ -1,1 +1,13 @@
 media: images
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: _posts
+    fields: 
+      - {name: title, label: Title, type: string }
+      - {name: layout, label: Layout, type: string }
+      - {name: date, label: Date, type: date }
+      - {name: categories, label: Categories, type: string, list: true} 
+      - {name: tags, label: Tags, type: string, list: true}
+      - {name: featured_image, label: Featured Image, type: image}
