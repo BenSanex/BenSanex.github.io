@@ -10,4 +10,4 @@ content:
       - {name: date, label: Date, type: date }
       - {name: categories, label: Categories, type: string, list: true} 
       - {name: tags, label: Tags, type: string, list: true}
-      - {name: featured_image, label: Featured Image, type: image}
+      - {name: featured_image, label: Image, type: image}
