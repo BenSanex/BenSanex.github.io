@@ -1,10 +1,7 @@
 ---
-layout: post
-title:  "Caracas, Hotel Humboldt"
-date:   2024-1-2
-categories: update post travel
-tags: [Post, Travel, Venezuela]
-featured_image: none
+published: true
+date: 2024-01-02
+title: Caracas, Hotel Humboldt
 ---
 We got started on the way to Caracas late, as is tradition. We inteded to go as a convoy but our partners had newer faster cars than we did and didn't wait for us in the slow lane. The highway to Caracas travels through the mountains. They're not imposing like the Rockies and are generally filled with thicker vegetation, which got thicker the closer we got to Caracas. When riding as a passenger it was easy to forget to look at the beautiful view and look at the crumbling median, rusty light poles and run down roadside food stands. We passed another polar brewing fcaility, up and running of course. The demand for local goods exists, but that seems to be the largest and most successful example. The general exodus of people has not only weakened overall deamnd for goods but the supply of labor as well. Many of the abandoned factories I've seen were American companies, Kellogg's and Ford we're 2 noteworthy ones. Statues of Toucan Sam sat alone behind chain link fences. I wonder if someone local were to operate factories and not worry about exporting profits back to the US if they'd be successful.
 
