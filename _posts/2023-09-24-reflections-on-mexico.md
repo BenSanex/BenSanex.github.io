@@ -1,10 +1,11 @@
 ---
-layout: post
-title:  "Hello from Mexico"
-date:   2023-09-24
-categories: update post travel
-tags: [Post, Travel]
-featured_image: national_cathedral.jpg
+published: true
+date: 2023-09-24
+title: Hello from Mexico
+tags:
+  - Post
+  - Travel
+featured_image: posts/national_cathedral.jpg
 ---
 Last Sunday through Wednesday nights I was in Mexico City. The primary purpose of my visit was to obtain my Visa from the Venezuelan Embassy. I rented an Airbnb in Polanco, located close to the Embassy. Polanco is also an area that I am familiar with from my first visit to Mexico City. Since I would be traveling solo, some of this familiarity helped to reduce a bit of anxiety with the trip.
 
