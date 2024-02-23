@@ -1,4 +1,6 @@
-media: images/posts
+media:
+  input: images/posts
+  output: ''
   
 content:
   - name: posts
