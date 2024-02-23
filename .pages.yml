@@ -23,7 +23,9 @@ content:
         list: true
       - name: body
         label: Body
-        type: rich-text
+        type: code
+        options:
+          language: markdown
       - name: featured_image
         label: Cover Image
         type: image
