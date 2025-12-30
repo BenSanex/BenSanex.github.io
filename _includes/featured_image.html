@@ -1,0 +1,8 @@
+{% assign image = include.image | to_s | strip %}
+{% assign alt_text = include.alt | to_s | strip %}
+{% assign default_base = include.base | default: '/images/' %}
+{% capture featured_image_src %}{% include featured_image_src.html image=image base=default_base %}{% endcapture %}
+{% assign featured_image_src = featured_image_src | strip %}
+{% if featured_image_src != '' %}
+  <img src="{{ featured_image_src }}" alt="{{ alt_text }}" />
+{% endif %}

@@ -1,7 +1,11 @@
 {% for post in paginator.posts limit:2 %}
 <article class="post">
-    {% if post.featured_image %}
-    <a href="{{ site.baseurl }}{{ post.url }}" class="post-thumbnail"><img src="{{ "/images/posts/" | append: post.featured_image | prepend: site.baseurl }}" alt="{% if post.featured_image_alt %}{{ post.featured_image_alt }}{% else %}{{ post.title }}{% endif %}"></a>
+    {% assign feature_image = post.featured_image | to_s | strip %}
+    {% assign feature_image_alt = post.featured_image_alt | default: post.title %}
+    {% if feature_image != '' and feature_image != 'none' and feature_image != 'null' %}
+    <a href="{{ site.baseurl }}{{ post.url }}" class="post-thumbnail">
+        {% include featured_image.html image=feature_image alt=feature_image_alt base='/images/posts/' %}
+    </a>
     {% endif %}
     <div class="entry-box">
         <header class="entry-header">

@@ -1,0 +1,13 @@
+{% assign image = include.image | to_s | strip %}
+{% assign default_base = include.base | default: '/images/' %}
+{% if image != '' and image != 'none' and image != 'null' %}
+  {% assign normalized = image %}
+  {% unless normalized contains '://' or normalized | slice: 0, 1 == '/' %}
+    {% assign normalized = default_base | append: normalized %}
+  {% endunless %}
+  {% if normalized contains '://' %}
+    {{ normalized }}
+  {% else %}
+    {{ normalized | prepend: site.baseurl }}
+  {% endif %}
+{% endif %}

@@ -39,8 +39,11 @@
                         <ul class="recent-posts">
                         {% for post in site.posts limit:3 %}
                             <li>
-                                {% if post.featured_image %}
-                                <a href="{{ site.baseurl }}{{ post.url}}" class="post-thumb" style="background-image: url({{ "/images/posts/" | append: post.featured_image | prepend: site.baseurl }});"></a>
+                                {% assign feature_image = post.featured_image | to_s | strip %}
+                                {% capture feature_image_src %}{% include featured_image_src.html image=feature_image base='/images/posts/' %}{% endcapture %}
+                                {% assign feature_image_src = feature_image_src | strip %}
+                                {% if feature_image_src != '' %}
+                                <a href="{{ site.baseurl }}{{ post.url}}" class="post-thumb" style="background-image: url({{ feature_image_src }});"></a>
                                 {% endif %}
                                 <div class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
                                 <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>

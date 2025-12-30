@@ -7,9 +7,11 @@ permalink: /links/
 <main class="content fade-in-down delay-0_75s">
     <div class="inner">
         <article class="post">
-            {% if page.featured_image %}
+            {% assign feature_image = page.featured_image | to_s | strip %}
+            {% assign feature_image_alt = page.featured_image_alt | default: page.title %}
+            {% if feature_image != '' and feature_image != 'none' and feature_image != 'null' %}
             <div class="post-thumbnail">
-                <img src="{{ "/images/" | append: page.featured_image | prepend: site.baseurl }}" alt="{% if page.featured_image_alt %}{{ page.featured_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                {% include featured_image.html image=feature_image alt=feature_image_alt base='/images/' %}
             </div><!-- .post-thumbnail -->
             {% endif %}
             <div class="entry-box">
