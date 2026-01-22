@@ -10,6 +10,8 @@ excerpt: >-
   An argument for dedicated QA as a distinct role and mindset from feature delivery.
 ---
 
+The debate over whether we still need QA keeps resurfacing, usually framed as a question of trust in developers or belief in automation. That framing misses the point. This isn’t about capability — it’s about incentives, cognitive load, and risk.
+
 I recently found myself in another discussion debating the merits of dedicated QA engineers. For most, if not all, of my career I was never expected to have final say in whether or not my code was ready for release. There was always someone taking a second look (or a first, if I was lazy, overconfident, etc.) at a particular feature.
 
 So it was a surprise when I joined a new company where the mandate was simple: *we do not have QA, everyone owns their own testing.*
@@ -20,7 +22,7 @@ As far as I can tell, this debate resurfaces on Hacker News more often than I br
 
 ---
 
-## Developers Owning Testing Isn’t a Bad Idea
+## Shipping vs Stopping
 
 The logic behind developers owning their code *does* have merit. Developers should be experts in their domain and should understand expected behavior as well as anyone. Training a QA engineer on product behavior introduces another layer of communication and another potential slowdown.
 
@@ -28,7 +30,7 @@ In my opinion, this is a feature, not a bug.
 
 Having more people deeply familiar with a domain, each bringing their own perspective, reduces the chance of unintended consequences. Redundancy and extra eyes are exactly how complex systems stay resilient.
 
-Taking an extra, dedicated step to ensure releases are solid should reduce the number of bugs that make it to production. Delays in shipping new features represent opportunity cost, but bugs in production carry real cost: financial cost, loss of user trust, and increased churn.
+At a more fundamental level, developers and QA engineers tend to optimize for different things. Developers are oriented toward shipping. QA is oriented toward stopping bad things from shipping. That tension isn’t dysfunction, it’s the safety mechanism.
 
 ---
 
@@ -42,19 +44,21 @@ New features bring excitement. They make management happy. They set PMs and engi
 
 Prevented bugs don’t.
 
-That incentive structure doesn’t make developers careless; it makes them rational.
+That incentive structure doesn’t make developers careless, it makes them rational.
 
 ---
 
 ## “Tests Are Code, So Developers Should Write Them”
 
-Another common argument is that tests are code, and developers write code, so developers should write the tests. That’s factually true. I can read and write tests. Most developers can.
+Another common argument is that tests are code, and developers write code, so developers should write the tests. That’s true. I can read and write tests. Most developers can.
 
 I’m not arguing that developers should abdicate responsibility for testing. Developers should absolutely be writing unit tests and integration tests where appropriate. Depending on the feature, they should also be doing performance or load testing.
 
 A pull request should be a statement of what changed and a defense of why those changes should be merged.
 
 The next step, however, is for someone else to challenge that statement.
+
+This isn’t an argument for throwing work “over the wall” to QA, or for manual testing replacing automation.
 
 ---
 
@@ -64,7 +68,7 @@ This is where end-to-end testing makes the most sense.
 
 End-to-end tests are more time-consuming and more expensive to run. You generally don’t want them on every commit or even on every deploy to a development environment. This is also where the strongest argument against dedicated QA tends to appear: *you can and should automate these tests.*
 
-You should — where possible.
+You should... where possible.
 
 The issue arises when automation is *not* possible.
 
@@ -96,7 +100,7 @@ QA work requires a fundamentally different mental posture.
 
 It’s the difference between making something work and trying to make it fail. Between shipping and stopping.
 
-That mindset doesn’t come naturally to most builders — and that’s fine. It’s why specialization exists.
+That mindset doesn’t come naturally to most builders, and that’s fine. It’s why specialization exists.
 
 > A QA engineer walks into a bar and orders a beer.  
 > She orders 2 beers.  
@@ -109,15 +113,17 @@ I have personally witnessed well over $200k in bugs that would have been caught 
 
 ---
 
-## So… Do You Need QA?
+## When Dev-Owned Testing *Can* Work
 
 I would prefer to work with QA engineers, but it *is* possible to succeed with developers owning their own testing.
 
 Startups that don’t have the money or the luxury of time (usually because of money) may need to drive their cars with no brakes. They’ll get dinged up along the way, but moving fast is existential.
 
 Larger companies can try to move in this direction too, but only if they are set up to succeed:
-- Codebases designed to be testable
-- Infrastructure that makes tests easy to run and maintain
-- Clear ownership to prevent a tragedy of the commons
+- Codebases must designed to be testable
+- Infrastructure must make tests easy to run and maintain
+- Ownership must be explicit to prevent a tragedy of the commons
 
-If you don’t have those things, trust the experts whose job is to think about how your system fails.
+If you don’t have those things, removing QA doesn’t make you faster, it just makes failure quiet until it explodes.
+
+If that is your situation, trust the experts whose job is to think about how your system fails.
