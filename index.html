@@ -8,11 +8,11 @@ layout: default
         <nav class="pagination">
             <h2 class="screen-reader-text">Posts navigation</h2>
             {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts"><i class="fa fa-angle-left" aria-hidden="true"></i> Newer Posts</a>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts"><i class="fa fa-angle-left" aria-hidden="true"></i> Newer Post</a>
             {% endif %}
-            <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            <span class="page-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
             {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts">Older Posts <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts">Older Post <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             {% endif %}
         </nav><!-- .pagination -->
         {% endif %}
