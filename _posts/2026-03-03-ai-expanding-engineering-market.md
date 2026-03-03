@@ -29,11 +29,21 @@ I think that's what's about to change.
 
 ## The denominator shifts
 
-When a software engineer using modern AI tools can do the work that used to require a small team, the ROI of hiring that engineer changes. The cost is roughly the same. The output isn't.
+Think about what it actually takes to justify a $150k engineering hire at a company that isn't a tech company. You need that person to generate enough value — in revenue, in saved costs, in competitive positioning — to cover their salary, benefits, management overhead, and the organizational risk of depending on them. At a lot of smaller businesses, you're probably looking at needing $400-500k in demonstrable value before the hire feels safe. That's a high bar when you're not sure what you're even going to have them build.
 
-A solo engineer at a company that's never had engineering talent before can now build and maintain things that would have taken multiple people not that long ago. The company gets more value. The engineer can command good compensation. And the hire finally makes sense in a way it probably never did.
+Now imagine that same engineer, with good AI tooling, is doing the output of two or three people. Suddenly that ROI calculation looks very different. The company isn't paying more — they're getting more. A lot more. And the things they can now afford to build start to compound: a real e-commerce presence drives more revenue, which justifies more engineering investment, which enables the next thing.
 
-I think there are a *lot* of companies in this position. Companies that have wanted to move up the technology stack for years — from no web presence to one, from a basic website to actual e-commerce, from e-commerce to real data infrastructure — but couldn't justify the talent to get there. AI might be the thing that finally makes that possible.
+That's the dynamic I think people are underestimating. It's not just that the hire becomes justifiable — it's that it becomes the obvious move for a whole category of companies that previously couldn't even get to "maybe."
+
+## Moving up the stack
+
+There's a ladder most non-tech businesses are somewhere on, whether they think about it that way or not. No website. Basic brochure site. Online store. Real inventory and fulfillment integration. Customer data and retention tooling. Custom internal software that actually reflects how the business works.
+
+Most companies are stuck somewhere in the middle of that ladder not because they don't want to climb it, but because each rung requires engineering investment they can't justify. The ROI has to be enormous to move, and the risk feels high when you don't have in-house expertise to evaluate what you're buying.
+
+A good engineer embedded in that company changes both sides of that equation. They can evaluate the options, build incrementally, and move the business up the stack in a way that a dev shop hired for a fixed project almost never does. The dev shop leaves. The engineer stays and compounds.
+
+I think there are a lot of companies that are one good engineer away from being meaningfully more competitive. For a long time, that engineer was out of reach. I'm cautiously hopeful that's changing.
 
 ## What this might mean for engineers
 
