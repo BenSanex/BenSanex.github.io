@@ -590,6 +590,52 @@ ul.search-results {
     font: 14px/1.5 $alt-font;
 }
 
+.bookmark-section {
+    border-top: 3px solid #e5e7e8;
+    margin-top: 36px;
+    padding-top: 18px;
+}
+
+.bookmark-section h2 {
+    margin-bottom: 8px;
+}
+
+.bookmark-section-intro {
+    color: #8b9092;
+    font: 15px/1.6 $alt-font;
+    margin-bottom: 18px;
+}
+
+.bookmark-list {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+.bookmark-list li {
+    background-color: #fff;
+    border-left: 3px solid #dbdedf;
+    margin-bottom: 10px;
+    padding: 12px 14px;
+}
+
+.bookmark-list a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bookmark-meta {
+    color: #8b9092;
+    display: block;
+    font: 14px/1.5 $alt-font;
+    margin-top: 3px;
+}
+
+.bookmark-meta a {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
 /* Comments */
 
 .comments-area {
