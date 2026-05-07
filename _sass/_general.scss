@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 /**
  * General
  * ----------------------------------------
@@ -108,15 +110,15 @@ pre code {
 }
 
 blockquote {
-    border-bottom: 3px solid #f2f2f2;
-    border-top: 3px solid #f2f2f2;
+    border-bottom: 1px solid #e6e8e9;
+    border-top: 1px solid #e6e8e9;
     color: #30373d;
-    font-size: 24px;
+    font-size: 17px;
     font-style: italic;
-    line-height: 1.4;
+    line-height: 1.6;
     margin: 0 0 24px;
-    padding: 24px 0;
-    text-align: center;
+    padding: 16px 0 16px 18px;
+    text-align: left;
 }
 
 blockquote small,
