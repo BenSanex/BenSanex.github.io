@@ -7,11 +7,10 @@
  */
 
 // Import
-@use "sass:color";
-@use "variables" as *;
-@use "icons";
-@use "reset";
-@use "general";
+@import "variables";
+@import "icons";
+@import "reset";
+@import "general";
 
 /**
  * Structure
@@ -102,7 +101,7 @@
         transition: color 0.2s ease, transform 0.3s ease;
         z-index: 1;
         &:before {
-            background: linear-gradient(135deg, rgba(color.adjust($accent-color, $lightness: 25%), 0.45), rgba(color.adjust($accent-color, $lightness: 5%), 0.6));
+            background: linear-gradient(135deg, rgba(lighten($accent-color, 25%), 0.45), rgba(lighten($accent-color, 5%), 0.6));
             border-radius: 999px;
             bottom: 0;
             content: "";
@@ -145,7 +144,7 @@
 .nav-menu .nav-current>a {
     color: #f7fbf8;
     &:after {
-        background: linear-gradient(90deg, rgba(color.adjust($accent-color, $lightness: 25%), 0.85), rgba($accent-color, 0.85));
+        background: linear-gradient(90deg, rgba(lighten($accent-color, 25%), 0.85), rgba($accent-color, 0.85));
         bottom: 4px;
         content: "";
         height: 1px;
